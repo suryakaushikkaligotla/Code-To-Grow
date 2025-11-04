@@ -1,12 +1,18 @@
 #include <stdio.h>
 
 int main() {
+
+
 // Declaring values//
+   
+    
     int choice;
     int transactions = 0;
     float balance = 10000.0;
     float amount;
     int MaxTransactions = 5;
+
+
 //The standard interface for the simulator and based on the choices the else if commands come in place//
     printf("-------Mini ATM Simulator-------\n");
     printf("Initial Balance: ₹%.2f\n", balance);
@@ -46,7 +52,10 @@ int main() {
             if (amount <= 0) {
                 printf("Invalid withdrawal amount!\n");
 
-                //For minimum account balance
+    
+    //For minimum account balance
+            
+            
             } 
             else if (amount > balance - 500) { 
                 printf("Insufficient balance! Minimum ₹500 must remain.\n");
