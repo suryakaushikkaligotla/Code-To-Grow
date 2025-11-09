@@ -6,7 +6,6 @@
 
 
 #include <stdio.h>
-
 int main() {
     int totalpassengers;
     int i;
