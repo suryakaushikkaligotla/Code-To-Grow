@@ -1,7 +1,7 @@
-// For today's challenge, we need to make a smart fare calculator for the SRM University shuttle system.
-//We need to calculate the fare based on the number of passengers, age, distance and time of travel, that is determining if it is in peak time or non peak time
-//The standard bus fare is ₹10 per kilometre, and children under the age of 12 get 50% off, senior citizens above the age of 60 get 30% off
-//Peak hour charge applies between 8-10 AM and 5-8 PM, and the charge is 20% extra
+// For today's challenge, we need to make a smart fare calculator for the SRM University shuttle system.//
+//We need to calculate the fare based on the number of passengers, age, distance and time of travel, that is determining if it is in peak time or non peak time//
+//The standard bus fare is ₹10 per kilometre, and children under the age of 12 get 50% off, senior citizens above the age of 60 get 30% off//
+//Peak hour charge applies between 8-10 AM and 5-8 PM, and the charge is 20% extra//
 //The minimum fare should be ₹20//
 
 
