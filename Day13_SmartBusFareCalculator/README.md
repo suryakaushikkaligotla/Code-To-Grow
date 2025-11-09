@@ -2,7 +2,7 @@
 //We need to calculate the fare based on the number of passengers, age, distance and time of travel, that is determining if it is in peak time or non peak time
 //The standard bus fare is ₹10 per kilometre, and children under the age of 12 get 50% off, senior citizens above the age of 60 get 30% off
 //Peak hour charge applies between 8-10 AM and 5-8 PM, and the charge is 20% extra
-//The minimum fare should be ₹20
+//The minimum fare should be ₹20//
 
 
 #include <stdio.h>
@@ -19,7 +19,7 @@ int main() {
     float highestfare = 0;
     float lowestfare = 99999
 
-//Standard declaring variables till here
+//Standard declaring variables till here//
 
     printf("----------SRM Smart Bus Fare Calculator----------\n");
     printf("Enter number of passengers: ");
@@ -43,7 +43,7 @@ int main() {
 
         basefare = distance * 10;
         finalfare = basefare;
-// Calculating the base and final fare
+// Calculating the base and final fare//
         if (age < 12) {
             finalfare = basefare * 0.5;
             printf("Passenger: %s - Base Fare: ₹%.2f - Child Discount Applied", name, basefare);
@@ -51,7 +51,7 @@ int main() {
         else if (age >= 60) {
             finalfare = basefare * 0.7;
             printf("Passenger: %s - Base Fare: ₹%.2f - Senior Citizen Discount Applied", name, basefare);
-        //Checking whether if the passenger is a child or a senior citizen
+        //Checking whether if the passenger is a child or a senior citizen//
         
         } 
         else {
@@ -62,7 +62,7 @@ int main() {
             finalfare = finalfare * 1.2;
             printf("Peak Hour Surcharge Applied");
         }
-//Checking if peak hour surge applies or not
+//Checking if peak hour surge applies or not//
         if (finalfare < 20) {
             finalfare = 20;
         }
@@ -86,6 +86,6 @@ int main() {
     printf("Highest Fare: ₹%.2f\n", highestfare);
     printf("Lowest Fare: ₹%.2f\n", lowestfare);
     printf("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n");
-//Printing the final summary of the fare 
+//Printing the final summary of the fare//
     return 0;
 }
