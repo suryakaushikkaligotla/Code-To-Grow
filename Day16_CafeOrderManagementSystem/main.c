@@ -30,8 +30,9 @@ int main() {
         return 0;
     }
 
+    // Process each customer
     for (int x = 0; x < customers; x++) {
-        int customertotal = 0;
+        int customertotal = 0;  // ✅ reset total for each customer
 
         printf("\n--- Customer %d ---\n", x + 1);
         printf("Please enter the number of items: ");
@@ -56,6 +57,7 @@ int main() {
         printf("Total Bill for Customer %d: ₹%d\n", x + 1, customertotal);
     }
 
+    // Find most and least ordered items
     for (int i = 1; i < 5; i++) {
         if (itemsold[i] > itemsold[mostordered])
             mostordered = i;
@@ -68,8 +70,7 @@ int main() {
     printf("Total Items Sold: %d\n", totalitemssold);
     printf("Most Ordered Item: %s\n", itemnames[mostordered]);
     printf("Least Ordered Item: %s\n", itemnames[leastordered]);
-    printf("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n");
+    printf("========================================\n");
 
     return 0;
 }
-
