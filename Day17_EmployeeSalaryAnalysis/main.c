@@ -103,7 +103,7 @@ int main() {
             printf("\n");
         }
         else if (choice == 6) {
-            printf("Exiting program. Goodbye!\n");
+            printf("Exit!\n");
         }
         else {
             printf("Invalid choice. Please try again.\n");
