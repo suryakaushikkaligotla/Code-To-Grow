@@ -1,5 +1,5 @@
 /*Name: Kaushik Kaligotla
-Register Number: AP25110090168
+Registration Number: AP25110090168
 Day 18 - Inventory Management System*/
 
 #include <stdio.h>
