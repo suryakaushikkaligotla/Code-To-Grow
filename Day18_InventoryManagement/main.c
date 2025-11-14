@@ -115,11 +115,11 @@ int main() {
         }
 
         else if (choice == 5) {
-            printf("\nExiting program...\n");
+            printf("\nExit\n");
         }
 
         else {
-            printf("\nInvalid choice. Try again.\n");
+            printf("\nInvalid choice. Please try again.\n");
         }
 
     } while (choice != 5);
